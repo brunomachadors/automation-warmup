@@ -14,7 +14,7 @@ test('Login sucessful', async ({ page }) => {
     .getByRole('textbox', { name: 'Type your password' })
     .fill('password123');
   await page.getByRole('button', { name: 'Login' }).click();
-  await expect(page.getByText('User successfully')).toHaveText(
+  await expect(page.getByText('User successfully logge')).toHaveText(
     USERS.valid.expectedMessage
   );
 });

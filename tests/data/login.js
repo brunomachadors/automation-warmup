@@ -2,7 +2,7 @@ export const USERS = {
   valid: {
     username: 'test',
     password: 'password123',
-    expectedMessage: 'User successfully logged in!',
+    expectedMessage: 'User successfully logged in! Redirecting...',
   },
   blocked: {
     username: 'testblock',
